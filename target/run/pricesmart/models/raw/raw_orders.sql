@@ -2,7 +2,7 @@
   
     
 
-        create or replace transient table raw.pricesmart.raw_orders
+        create or replace transient table RAW.pricesmart.raw_orders
          as
         (
 

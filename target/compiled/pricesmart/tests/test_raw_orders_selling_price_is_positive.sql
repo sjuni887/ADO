@@ -1,6 +1,6 @@
 with
 orders as (
-    select * from raw.pricesmart.raw_orders
+    select * from RAW.pricesmart.raw_orders
 )
 
 select
