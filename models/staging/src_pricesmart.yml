@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: PRICESMART
+    database: RAW
+    schema: PRICESMART
+    tables:
+      - name: CUSTOMERS
+      - name: ORDERS
+      - name: PRODUCT
+      - name: FRESH_ORDERS
+        description: fresh orders to be appended into ORDERS table
+        columns:
+          - name: ORDERID
+            description: primary key for FRESH_ORDERS
+
